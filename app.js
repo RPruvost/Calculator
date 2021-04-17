@@ -1,5 +1,6 @@
 let para = document.querySelector("#para");
-let calculator = document.querySelector("#calculator")
+let calculator = document.querySelector("#calculator");
+para.textContent.maxLength = "15";
 function addNumber(event) {
     let btn = event.target
 
